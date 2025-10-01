@@ -1,0 +1,52 @@
+
+
+h1 {
+
+text-align: left;
+
+color: darkblue;
+
+font-family: 'Alumni Sans Inline One', cursive;
+
+}
+
+
+body {
+
+  background-color: lightblue;
+  color: black;
+
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+nav {
+    background-color: #333;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around; /* Distribuye los elementos equitativamente */
+    padding: 0;
+}
+
+li {
+    margin: 0;
+    padding: 10px;
+}
+
+a {
+    
+    color: #fff;
+}
+
+li:hover{
+  transition: 250ms;
+  background-color: #000000;
+}
+
